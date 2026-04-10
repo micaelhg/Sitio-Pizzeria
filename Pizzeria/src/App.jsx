@@ -4,6 +4,7 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import NavBar from "./components/NavBar"
 import Home from "./components/Home"
 import Footer from "./components/Footer";
+import Register from "./components/Register";
 
 function App() {
  
@@ -11,6 +12,7 @@ function App() {
     <>
       <div>
         <NavBar></NavBar>
+        <Register></Register>
         <Home></Home>
         <Footer></Footer>
       </div>
