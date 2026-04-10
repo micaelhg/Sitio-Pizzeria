@@ -6,7 +6,12 @@ function Register() {
         <form action="#" method="post">
           <div class="mb-3">
             <p>Ingresa tu correo</p>
-            <input type="email" id="email" placeholder="Ingresa tu correo" />
+            <input
+              type="email"
+              id="email"
+              placeholder="Ingresa tu correo"
+              class="form-control"
+            />
           </div>
           <div class="mb-3">
             <p>Ingresa tu contraseña</p>
@@ -14,6 +19,7 @@ function Register() {
               type="password"
               id="password"
               placeholder="Ingresa tu contraseña"
+              class="form-control"
             />
           </div>
           <div class="mb-3">
@@ -22,8 +28,12 @@ function Register() {
               type="password"
               id="password_confirm"
               placeholder="Confira tu contraseña"
+              class="form-control"
             />
           </div>
+          <button type="submit" class="btn btn-primary w-100">
+            Enviar
+          </button>
         </form>
       </div>
     </div>
