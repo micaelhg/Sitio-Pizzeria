@@ -13,8 +13,8 @@ function App() {
       <div>
         <NavBar></NavBar>
         <Register></Register>
-        <Home></Home>
-        <Footer></Footer>
+{/*         <Home></Home>
+ */}        <Footer></Footer>
       </div>
     </>
   );
